@@ -33,7 +33,7 @@ jobs:
           
       - name: Install React App
       - run: rm -rf node_modules/
-      - run: npm ci --production
+      - run: npm install --production
       - run: npm run build
         
       - name: Install Surge
